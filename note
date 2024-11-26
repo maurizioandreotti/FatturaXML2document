@@ -1,0 +1,7 @@
+python setup.py py2app -A
+./dist/main.app/Contents/MacOS/main
+
+
+Building a redistributable application consists of simply running the py2app command:
+
+$ python setup.py py2app
